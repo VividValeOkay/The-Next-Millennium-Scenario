@@ -1,0 +1,411 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "21st Century",
+		"techCost": 30,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 8,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "21st Century",
+		"techCost": 45,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Standard Research Objectives",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"uniques": ["[+1 Science] per [8] population [in capital]"],
+			},
+			{
+				"name": "Radio and Television Media",
+				"row": 4,
+				"prerequisites": ["Agriculture"],
+				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+			},
+			{
+				"name": "More Durable Equipment",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"quote": "'By distributing more durable mining equipment, the productivity of our mines can be improved.' - Rise of Nations Roblox"
+				"uniques": ["[+15]% [Production] from every [Mine]"],
+			},
+			{
+				"name": "Better Economics",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+				"uniques": ["[+15]% [Gold] [in all cities]"],
+			},
+			{
+				"name": "Sea Transport",
+				"row": 11,
+				"prerequisites": ["Agriculture"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+				"uniques": ["Enables embarkation for land units","Enables [Embarked] units to enter ocean tiles"],
+			},
+			{
+				"name": "Modernised Construction",
+				"row": 16,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+    ],
+  }
+	{
+		"columnNumber": 2,
+		"era": "21st Century",
+		"techCost": 75,
+		"buildingCost": 100,
+		"wonderCost": 220,
+		"techs": [
+			  {
+				"name": "Steel Working",
+				"row": 3,
+				"prerequisites": ["More Durable Equipment","Standard Research Objectives"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "Naval Research",
+				"row": 11,
+				"prerequisites": ["Sea Transport","Standard Research Objectives"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "More Advanced Supercomputers",
+				"row": 1,
+				"prerequisites": ["Standard Research Objectives"],
+				"quote": "'By investing in even faster and more advanced supercomputers, complex calculations can be processed much more quickly, speeding up research.' - Rise of Nations Roblox"
+			},
+			{
+				"name": "Tank Design",
+				"row": 14,
+				"prerequisites": ["More Durable Equipment","Modernised Construction"],
+				"quote": "'Tonk'"
+			},
+			{
+				"name": "Fabrication",
+				"row": 6,
+				"prerequisites": ["More Durable Equipment"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "Advanced Culture",
+				"row": 4,
+				"prerequisites": ["Radio and Television Media"],
+				"uniques": ["[+8]% [Culture] [in all cities]"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Advanced Economics",
+				"row": 9,
+				"prerequisites": ["Better Economics"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "Skeletonised Equipment",
+				"row": 12,
+				"prerequisites": ["More Durable Equipment","Modernised Construction"],
+				"quote": "'Every modern army needs infantry in order to function. Versatile and lightweight, these troops can strike at places with armored divisions can't reach.' - Rise of Nations Roblox.",
+			},
+			{
+				"name": "Specialised Construction",
+				"row": 16,
+				"prerequisites": ["Modernised Construction"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+			{
+				"name": "International Diplomacy Meetings",
+				"row": 19,
+				"prerequisites": ["Standard Research Objectives","Better Economics"],
+				"quote": "'Each friend represents a world in us, a world not born until they arrive, and it is only by this meeting that a new world is born.' - Anais Nin"
+			}
+		],
+	}
+	{
+		"columnNumber": 3,
+		"era": "21st Century",
+		"techCost": 90,
+		"buildingCost": 125,
+		"wonderCost": 240,
+		"techs": [
+			{
+				"name": "Artificial Intelligence",
+				"row": 1,
+				"prerequisites": ["More Advanced Supercomputers"],
+				"uniques": ["[+2 Science] per [12] population [in capital]"],
+				"quote": "'I do think there should be some regulations on AI.' - Elon Musk"
+			},
+			{
+				"name": "Advanced Culture II",
+				"row": 4,
+				"prerequisites": ["Advanced Culture"],
+				"uniques": ["[+8]% [Culture] [in all cities]"],
+				"quote": "'A people without the knowledge of their past history, origin and culture is like a tree without roots.' - Marcus Garvey"
+			},
+			{
+				"name": "Fabrication II",
+				"row": 6,
+				"prerequisites": ["Fabrication"],
+				"uniques": ["[+1 Production] from all [Factory] buildings"],
+				"quote": "'I used to work in a fire hydrant factory. You couldn't park anywhere near the place.' - Steven Wright"
+			},
+			{
+				"name": "Advanced Economics II",
+				"row": 9,
+				"prerequisites": ["Advanced Economics"],
+				"uniques": ["Enables conversion of city production to [Gold]"]
+				"quote": "'Government's view of the economy could be summed up in a few short phrases: If it moves, tax it. If it keeps moving, regulate it. And if it stops moving, subsidize it.' - Ronald Reagan"
+			},
+			{
+				"name": "National Security",
+				"row": 10,
+				"prerequisites": ["Advanced Economics","International Diplomacy Meetings"],
+				"quote": "'In America, you have the Cyber Intelligence Sharing and Protection Act. You've got drones now being considered for domestic surveillance. You have the National Security Agency building the world's giantest spy center.' - Heather Brooke"
+			},
+			{
+				"name": "Better Land Transport",
+				"row": 12,
+				"prerequisites": ["Skeletonised Equipment"],
+				"quote": "'I really do encourage other manufacturers to bring electric cars to market. It's a good thing, and they need to bring it to market and keep iterating and improving and make better and better electric cars, and that's what going to result in humanity achieving a sustainable transport future. I wish it was growing faster than it is.' - Elon Musk.",
+			},
+			{
+				"name": "Reactive Armour",
+				"row": 14,
+				"prerequisites": ["Tank Design"],
+				"uniques": ["[+15]% Strength <when defending> <for [Heavy Armor] units>"],
+				"quote": "'Reactive armour is a type of vehicle armour used in protecting vehicles, especially modern tanks, against shaped charges and hardened kinetic energy penetrators. The most common type is explosive reactive armour, but variants include self-limiting explosive reactive armour, non-energetic reactive armour, non-explosive reactive armour, and electric armour.' - Wikipedia.",
+			},
+			{
+				"name": "Construction II",
+				"row": 16,
+				"prerequisites": ["Specialised Construction"],
+				"uniques": ["[+1 Happiness] <in [Suburb] tiles>","[+1 Production] <in [Industrial Complex] tiles>"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+			{
+				"name": "Naval Improvements",
+				"row": 11,
+				"prerequisites": ["Naval Research"],
+				"uniques": ["[+12]% Strength <for [Ranged Water] units>"],
+				"quote": "'Beware of little expenses. A small leak will sink a great ship.' - Benjamin Franklin"
+			},
+			{
+				"name": "Open Border Agreements",
+				"row": 19,
+				"prerequisites": ["International Diplomacy Meetings"],
+				"uniques": ["Enables Open Borders agreements"],
+				"quote": "'Love is always open arms. If you close your arms about love you will find that you are left holding only yourself.' - Leo Buscaglia"
+			}
+		]
+	}
+		{
+		"columnNumber": 4,
+		"era": "21st Century",
+		"techCost": 150,
+		"buildingCost": 170,
+		"wonderCost": 350,
+		"techs": [
+			{
+				"name": "Robotic Science",
+				"row": 1,
+				"prerequisites": ["Artificial Intelligence"],
+				"quote": "'I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines.' - Claude Shannon"
+			},
+			{
+				"name": "Advanced Culture III",
+				"row": 4,
+				"prerequisites": ["Advanced Culture II"],
+				"quote": "'Without memory, there is no culture. Without memory, there would be no civilization, no society, no future.' - Elie Wiesel"
+			},
+			{
+				"name": "Fabrication III",
+				"row": 6,
+				"prerequisites": ["Fabrication II"],
+				"uniques": ["[+1 Production] from all [Factory] buildings"],
+				"quote": "'The man who builds a factory builds a temple, that the man who works there worships there, and to each is due, not scorn and blame, but reverence and praise.' - Calvin Coolidge"
+			},
+			{
+				"name": "Healthcare Improvements",
+				"row": 9,
+				"prerequisites": ["Advanced Economics II"],
+				"quote": "'He who has health, has hope; and he who has hope, has everything.' - Thomas Carlyle"
+			},
+			{
+				"name": "Infantry Improvement",
+				"row": 12,
+				"prerequisites": ["Better Land Transport"],
+				"uniques": ["[+15]% Strength <for [Rifle] units>"],
+				"quote": "'The best weapon against an enemy is another enemy.' - Friedrich Nietzsche",
+			},
+			{
+				"name": "Modern Tank Design",
+				"row": 14,
+				"prerequisites": ["Reactive Armour"],
+				"quote": "'Reactive armour is a type of vehicle armour used in protecting vehicles, especially modern tanks, against shaped charges and hardened kinetic energy penetrators. The most common type is explosive reactive armour, but variants include self-limiting explosive reactive armour, non-energetic reactive armour, non-explosive reactive armour, and electric armour.' - Wikipedia.",
+			},
+			{
+				"name": "Specialised Construction II",
+				"row": 16,
+				"prerequisites": ["Construction II"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+			{
+				"name": "Aerodynamics",
+				"row": 11,
+				"prerequisites": ["Naval Improvements"],
+				"quote": "'Keep your nose out the sky, keep your heart to god, and keep your face to the raising sun.' - Kanye West"
+			},
+		       {
+				"name": "Establish Embassies",
+				"row": 19,
+				"prerequisites": ["Open Border Agreements"],
+				"uniques": ["Enables establishment of embassies","Enables Research agreements"],
+				"quote": "'Our freedom, our prosperity and our security depend on a proper respect for the fortune of our neighbours, allies and old friends.' - Nicholas Soames"
+			}
+		]
+	}
+		{
+		"columnNumber": 5,
+		"era": "21st Century",
+		"techCost": 240,
+		"buildingCost": 280,
+		"wonderCost": 420,
+		"techs": [
+			{
+				"name": "Advanced Science",
+				"row": 1,
+				"prerequisites": ["Robotic Science"],
+				"uniques": ["[+8]% [Science] [in all cities]"],
+				"quote": "'I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines.' - Claude Shannon"
+			},
+			{
+				"name": "Advanced Culture IV",
+				"row": 4,
+				"prerequisites": ["Advanced Culture III"],
+				"uniques": ["[+10]% [Culture] [in all cities]"],
+				"quote": "'Without memory, there is no culture. Without memory, there would be no civilization, no society, no future.' - Elie Wiesel"
+			},
+			{
+				"name": "Fabrication IV",
+				"row": 6,
+				"prerequisites": ["Fabrication III"],
+				"uniques": ["[+1 Production] from all [Factory] buildings"],
+				"quote": "'The man who builds a factory builds a temple, that the man who works there worships there, and to each is due, not scorn and blame, but reverence and praise.' - Calvin Coolidge"
+			},
+			{
+				"name": "Advanced Economics III",
+				"row": 9,
+				"prerequisites": ["Healthcare Improvements"]
+				"quote": "'Government's view of the economy could be summed up in a few short phrases: If it moves, tax it. If it keeps moving, regulate it. And if it stops moving, subsidize it.' - Ronald Reagan"
+			},
+			{
+				"name": "Higher Caliber Rifles",
+				"row": 12,
+				"prerequisites": ["Infantry Improvement"],
+				"quote": "'The best weapon against an enemy is another enemy.' - Friedrich Nietzsche",
+			},
+			{
+				"name": "Tank Improvements",
+				"row": 14,
+				"prerequisites": ["Modern Tank Design"],
+				"uniquess": ["[+15]% Strength <for [Heavy Armor] units>","[+10]% Strength <for [Light Armor] units> <when defending>"],
+				"quote": "'Tank you veddy much.' - Andy Kaufman",
+			},
+			{
+				"name": "Naval Improvements II",
+				"row": 11,
+				"prerequisites": ["Aerodynamics"],
+				"quote": "'When I lost my rifle, the Army charged me 85 dollars. That is why in the Navy the Captain goes down with the ship.' - Dick Gregory"
+			},
+		       {
+				"name": "Defense Pacts",
+				"row": 19,
+				"prerequisites": ["Establish Embassies"],
+				"uniques": ["Enables Defensive Pacts"],
+				"quote": "'A faithful friend is a strong defense; And he that hath found him hath found a treasure.' - Louisa May Alcott"
+			}
+		]
+	}
+		{
+		"columnNumber": 6,
+		"era": "21st Century",
+		"techCost": 340,
+		"buildingCost": 280,
+		"wonderCost": 420,
+		"techs": [
+			{
+				"name": "Uranium Research",
+				"row": 11,
+				"prerequisites": ["Advanced Science"],
+				"quote": "'Leave the atom alone.' - E. Y. Harburg"
+			}
+			{
+				"name": "Satellites",
+				"row": 1,
+				"prerequisites": ["Advanced Science"],
+				"uniques": ["Reveals the entire map"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "Globalisation",
+				"row": 4,
+				"prerequisites": ["Advanced Culture IV"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
+		]
+	}
+		{
+		"columnNumber": 7,
+		"era": "21st Century",
+		"techCost": 460,
+		"buildingCost": 280,
+		"wonderCost": 420,
+		"techs": [
+			{
+				"name": "Uranium Enrichment",
+				"row": 11,
+				"prerequisites": ["Uranium Research"],
+				"quote": "'I am not sure why, but I have been obsessed by the Atom Bomb ever since it first happened.' - Lanford Wilson"
+			},
+			{
+				"name": "Advanced Spacecraft",
+				"row": 1,
+				"prerequisites": ["Satellites"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+		]
+	},
+		{
+		"columnNumber": 8,
+		"era": "21st Century",
+		"techCost": 460,
+		"buildingCost": 280,
+		"wonderCost": 420,
+		"techs": [
+			{
+				"name": "Nuclear Warheads",
+				"row": 11,
+				"prerequisites": ["Uranium Enrichment"],
+				"quote": "'I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.' - Albert Einstein"
+			}
+			{
+				"name": "Mars Terraforming",
+				"row": 1,
+				"prerequisites": ["Advanced Spacecraft"],
+				"quote": "'Mars has been flown by, orbited, smacked into, radar inspected, and rocketed onto, as well as bounced upon, rolled over, shoveled, drilled into, baked, and even laser blasted.' - Buzz Aldrin"
+			},
+		]
+	}
+]

@@ -1,0 +1,1359 @@
+[
+{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+},
+{
+		//nations
+		"name": "The United States",
+		"leaderName": "Noah Smith",
+		"adjective": ["American"],
+		"startBias": ["Grassland"],
+		"personality": "American",
+
+		"startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+		"startIntroPart2": "It is now your time to lead us to this new future. Will you lead the United States to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+		"declaringWar": "Prepare to be liberated!!",
+		"attacked": "We will remember this, this attack on the western world..!",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Welcome to the United States of America! If you conduct yourself well, you can consider us friends.",
+
+		"neutralHello": "Welcome.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"declaringFriendship": "I offer this friendship from the west.",
+
+		"outerColor": [28,51,119],
+		"innerColor": [255,255,255],
+		"uniqueName": "Arm of Democracy",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+  {
+		"name": "Russia",
+		"leaderName": "Nikolai Aleksandrov",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"personality": "Russian",
+
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Russia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "If you Western Imperialist want war, then come fight us, we'll be waiting with parade uniforms!",
+		"defeated": "We were defeated, so comes the collapse of Russia. I suppose there are no worse fates...",
+	      	"denounced": "You'll regret this, one day..!",
+		"introduction": "Welcome to the Russian Federation...",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+	  	"declaringFriendship": "I am happy to allow you into the CSTO, a friendship between our nations. Do you accept?",
+		"outerColor": [254,222,222],
+		"innerColor": [39,186,234],
+		"uniqueName": "Fall of the Soviet Union",
+	        "uniques": ["Starts with [Authoritarianism] adopted"],
+		"cities": ["Moscow","Saint Petersburg","Novosibirsk","Yekaterinburg","Kazan","Yekaterinburg","Nizhny Novgorod","Chelyabinsk","Krasnoyarsk","Samara",
+			"Ufa","Rostov-on-Don","Omsk","Krasnodar","Voronezh","Perm","Volgograd","Saratov","Tyumen","Tolyatti",
+			"Barnaul","Izhevsk","Makhachkala","Khabarovsk","Ulyanovsk","Irkutsk","Vladivostok","Yaroslavl","Kemerovo","Tomsk","Naberezhnye Chelny",
+			"Sevastopol","Stavropol","Orenburg","Ryazan","Kaliningrad","Kursk","Tver"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Aleksandr"]
+    },
+{
+		"name": "China",
+		"leaderName": "Cheng Wu",
+		"adjective": ["Chinese"],
+		"personality": "Chinese",
+	        "startBias": ["Grassland"],
+
+                "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+                "startIntroPart2": "It is now your time to lead us to this new future. Will you lead China to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+                "declaringWar": "I will destroy who ever wants to devide the people of China!",
+		"attacked": "Fools think they can take down China?",
+		"defeated": "China may have fallen, but the people will never accept defeat.",
+		"denounced": "Are you threatening us!?",
+		"introduction": "Welcome to the People's Republic of China.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+	  	"declaringFriendship": "We are building a coalition of like-minded people. Shall you take part?",
+                "outerColor": [224,24,24],
+                "innerColor": [255,217,1],
+                "uniqueName": "March of the Volunteers",
+	        "uniques": ["Starts with [Socialist Republic] adopted"],
+		"cities": ["Beijing","Shanghai","Shenzhen","Guangzhou","Chengdu","Tianjin","Wuhan","Tianjin","Dongguan","Chongqing",
+			"Xi'an","Hangzhou","Foshan","Nanjing","Shenyang","Zhengzhou","Qingdao","Suzhou","Jinan","Changsha",
+			"Kunming","Harbin","Shijiazhuang","Hefei","Dalian","Xiamen","Nanning","Changchun","Taiyuan","Guiyang","Wuxi",
+			"Ürümqi","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+}
+{
+		"name": "Germany",
+		"leaderName": "Dietlind Meinhardt",
+		"adjective": ["German"],
+		"personality": "German",
+	        "startBias": ["Avoid [Arid]"],
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Germany to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+                "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
+		"attacked": "Corrupted villain! We will bring you into the ground!",
+		"defeated": "Germany has been destroyed once again. I weep for the future generations.",
+		"introduction": "Welcome to the Federal Republic of Germany.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		"declaringFriendship": "Let us be companions! So long as we do not have to meet often. And you will have to wear a mask.",
+		"outerColor": [215,182,19],
+		"innerColor": [0,0,0],
+		"uniqueName": "A United Germany",
+	        "uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt am Main","Stuttgart","Düsseldorf","Leipzig","Dortmund",
+			"Essen","Bremen","Hanover","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
+    },
+    {
+		"name": "The United Kingdom",
+		"leaderName": "Olivia Wilson",
+		"adjective": ["British","English"],
+		"startBias": ["Coast"],
+		"personality": "British",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Britian to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "We shall never surrender.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "Welcome to the United Kingdom of Great Britain and Northern Ireland!",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement with Britian?",
+		"declaringFriendship": "We are pleased to consider you an esteemed friend. We hope the feeling is mutual...",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Brexit",
+	        "uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["London","Birmingham","Manchester","Liverpool","Leeds","Sheffield","Middlesbrough","Bristol","Bournemouth","Stoke-on-Trent",
+			"Leicester","Wirral","Norwich","Coventry","Nottingham","Bradford","Newcastle Upon Tyne","Brighton and Hove","Plymouth","Preston",
+			"Derby","Aldershot","Badshot Lea","Southampton","Wigan","Portsmouth","Luton","York","Northampton","Milton Keynes"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
+	{
+		"name": "Iran",
+		"leaderName": "Behnam Shah",
+		"adjective": ["Iranian","Persian"],
+		"startBias": ["Arid"]
+		"personality": "Persian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Iran to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "The Allah stands with us, while you stand alone...",
+		"attacked": "Curse you! You are beneath me, son of a driver! I will crush you!",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+		"introduction": "Welcome to the Islamic Republic of Iran.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+		"declaringFriendship": "We must unite in friendship, lest we be destroyed in division.",
+
+        "outerColor": [30,138,6],
+        "innerColor": [206,12,1],
+		
+		"uniqueName": "Esteqlâl, Âzâdi, Jomhuri-ye Eslâmi",
+	        "uniques": ["Starts with [Authoritarianism] adopted"],
+		"cities": ["Tehran","Isfahan","Mashhad","Karaj","Shiraz","Tabriz","Qom","Ahvaz","Kermanshah","Urmia",
+			"Rasht","Zahedan","Istakhr","Hamadan","Kerman","Yazd","Ardabil","Bandar Abbas","Arak","Eslamshahr","Zanjan",
+			"Sanandaj","Qazvin","Sanandaj","Khorramabad","Gorgan","Sari","Shahriar","Qods","Kashan","Malard",
+			"Dezful","Nishapur","Babol","Khomeyni Shahr","Sabzevar","Golestan","Amol","Pakdasht","Najafabad","Borujerd","Abadan",
+			"Qarchak","Bojnord","Varamin","Bushehr","Nasimshahr","Sirjan","Khoy","Ilam","Piranshahr","Shahr-e Kord",
+			"Semnan","Yasuj","Fardis","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+        "spyNames": ["Ali", "Abbas", "Amir", "Bahram", "Karim", "Kourosh", "Niusha", "Abdulloh", "Mihemed ", "Yasmin"]
+    },
+    {
+		"name": "Brazil",
+		"leaderName": "Brayan Nogueira",
+		"adjective": ["Brazilian"],
+		"startBias": ["Coast","Jungle"],
+		"personality": "Brazilian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Brasil to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+                "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "You don't come for Brasil... Brasil comes for you!!",
+		"defeated": "Brazil will go down in history as the strongest nation in South America..!",
+		"introduction": "Welcome to the Federative Republic of Brasil.",
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		"outerColor": [107,208,6],
+		"innerColor": [63,106,64],
+		"uniqueName": "Ordem e Progresso",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Brasília","São Paulo","Rio de Janeiro","Fortaleza","Salvador","Belo Horizonte","Manaus","Curitiba","Recife","Goiânia","Belém",
+			"Porto Alegre","Guarulhos","Campinas","São Luís","Maceió","São Gonçalo","Campo Grande","Teresina","João Pessoa","Duque de Caxias","Nova Iguaçu","São Bernardo do Campo",
+			"Natal","Santo André","Sorocaba","Osasco","Uberlândia","Ribeirão Preto","São José dos Campos","Jaboatão dos Guararapes","Cuiabá","Feira de Santana","Joinville",
+			"Contagem","Aracaju","Crato","Londrina","Florianópolis","Garanhuns","Brazil"],
+        "spyNames": ["Andressa", "Dênis", "Divina", "Edison", "Eliel", "Senhor X", "Eustáquio", "Felipinho", "Izabel", "Ubirajara"]
+    },
+    {
+		"name": "Japan",
+		"leaderName": "Mei Takeda",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast","Grassland"],
+		"personality": "Japanese",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Japan to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "I wish not to do this, but you leave us with no choice..!",
+		"attacked": "We would never surrender our homeland to you, so we must fight!",
+		"defeated": "You were much wiser than I thought.",
+		"denounced": "Alright then. I trust you've thought it through.",
+		"introduction": "Welcome to Japan, I hope you enjoy your stay!",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"uniqueName": "Post Economic Miracle",
+	        "uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Tokyo","Yokohama","Osaka","Nagoya","Sapporo","Kobe","Kyoto","Fukuoka","Kawasaki","Saitama","Hiroshima","Chiba",
+		             "Sendai","Kitakyushu","Sakai","Niigata","Shizuoka","Sagamihara","Okayama","Kumamoto","Kagoshima","Funabashi","Hachioji","Kawaguchi",
+		             "Himeji","Matsuyama","Higashiōsaka","Utsunomiya","Matsudo","Nishinomiya","Kurashiki","Ichikawa","Oita","Fukuyama","Amagasaki","Kanazawa",
+		             "Nagasaki","Yokosuka","Toyama","Toyota","Kochi","Aomori","Juice","Japan"],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Masao", "Yuzuki", "Kawashima", "Osamu", "Eiji", "Yeong-Gi", "John"]
+    },
+	{
+		"name": "India",
+		"leaderName": "Lakshman Mishra",
+		"adjective": ["Indian"],
+		"startBias": ["Plains"],
+		"personality": "Indian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead India to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"denounced": "You will regret this, greatly...",
+		"introduction": "Welcome to the Indian republic.",
+		"neutralHello": "I wish you peace.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+		"declaringFriendship": "There is no shame in deterrence. Having a weapon is very different from actually using it.",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"uniqueName": "Vande Mataram",
+	        "uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["New Delhi","Mumbai","Bengaluru","Hyderabad","Ahmedabad","Chennai","Calcutta","Surat","Pune","Jaipur","Lucknow","Kanpur",
+		            "Nagpur","Indore","Thane","Bhopal","Visakhapatnam","Pimpri-Chinchwad","Patna","Vadodara","Ghaziabad","Ludhiana","Agra",
+		            "Nashik","Faridabad","Meerut","Rajkot","Kalyan-Dombivli","Vasai-Virar","Varanasi","Srinagar","Aurangabad","Dhanbad",
+		            "Amritsar","Navi Mumbai","Prayagraj","Howrah","Ranchi","Raipur","Bhubaneswar","Thiruvananthapuram","Raurkela Industrial Township"],
+        "spyNames": ["George", "Fathima", "Gurpreet", "Amardeep", "Rohit", "Ajay", "Arati", "Jayesh", "Raj", "Rishi"]
+    },
+    {
+		"name": "Turkiye",
+		"leaderName": "Eymen Koç",
+		"adjective": ["Turkish","Turk"],
+		"startBias": ["Arid","Plains"],
+		"personality": "Turkish",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Turkey to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
+		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of our nation.",
+		"defeated": "Ruin! Ruin! Ankara becomes Iram of the Pillars, remembered only by the melancholy poets.",
+		"introduction": "Welcome to the Republic of Türkiye. Bugün nasılsın?",
+		"neutralHello": "Selamlar!",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let us do business! Would you be interested?",
+
+        "outerColor": [243,45,45],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "İstiklal Marşı",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Ankara","Istanbul","İzmir","Bursa","Adana","Gaziantep","Konya","Antalya","Kayseri","Mersin","Eskişehir","Diyarbakır","Samsun","Denizli",
+		           "Şanlıurfa","Adapazarı","Malatya","Kahramanmaraş","Erzurum","Van","Batman","Elazığ","İzmit","Manisa","Sivas","Gebze","Balıkesir",
+		           "Tarsus","Kütahya","Trabzon","Çorum","Çorlu","Adıyaman","Osmaniye","Kırıkkale","Antakya","Aydın","İskenderun","Uşak","Gölcük"],
+        "spyNames": ["Alim", "Boran", "İkranur", "Kader", "Mert Yıldız", "Pembe", "Süleyman", "Khazhak", "Kerîm", "Mihemed"]
+    },
+    {
+		"name": "Indonesia",
+		"leaderName": "Kartini",
+		"adjective": ["Indonesian"],
+		"startBias": ["Coast","Jungle"],
+		"personality": "Indo",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Indonesia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "Before this war ends, you will know the fury of a thousand battleships.",
+		"attacked": "Truly? Didn't you know the Indonesian navy puts monsoons to shame? Soon you will.",
+		"defeated": "You may win, but you cannot win upon my spirit.",
+	    	"denounced": "You call that an insult? A pathetic attempt from a crusted barnacle!",
+		"introduction": "Welcome to the Republic of Indonesia.",
+		"neutralHello": "Good days!",
+		"hateHello": "Uhm?",
+		"tradeRequest": "What if we make a deal, you and me?",
+		"declaringFriendship": "There is no shame in deterrence. Having a weapon is very different from actually using it.",
+
+        "outerColor": [101,211,220],
+        "innerColor": [167,52,31],
+
+		"uniqueName": "Bhinneka Tunggal Ika",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Jakarta","Surabaya","Bekasi","Bandung","Medan","Depok","Tangerang","Palembang","Semarang","Makassar","South Tangerang","Batam","Bogor",
+		           "Pekanbaru","Bandar Lampung","Padang","Samarinda","Malang","Tasikmalaya","Serang","Balikpapan","Banjarmasin","Pontianak","Denpasar",
+		           "Jambi","Cimahi","Surakarta","Kupang","Manado","Mataram","Jayapura","Bengkulu","Palu","Ambon","Kendari","Palangka Raya","Banda Aceh"],
+        "spyNames": ["Abdullah", "Indah", "Iskandar", "Rahmawati", "Nizar", "Taufik", "Zakaria", "Rustam", "Suhaila"]
+    },
+    {
+		"name": "Nigeria",
+		"leaderName": "Segun Afolayan",
+		"adjective": ["Nigerian"],
+		"startBias": ["Plains"],
+		"personality": "Nigerian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Nigeria to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "Your ingnorance of where our borders lay is a sign of agression, so we must got to war.",
+		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
+		"defeated": "Wealth is fleeting; learning is vanity. All I have done, God, I did in your name.",
+	    	"denounced": "What you say is completely wrong of our reality, you are the one to be judged...",
+		"introduction": "Welcome to the Federal Republic of Nigeria!",
+		"neutralHello": "Hello!",
+		"hateHello": "What?",
+		"tradeRequest": "We always have time to trade, now is a great time!",
+
+        "outerColor": [0,135,81],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "Unity and Faith, Peace and Progress",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Abuja","Lagos","Kano","Ibadan","Benin City","Port Harcourt","Aba","Jos","Ilorin","Kaduna","Zaria","Ogbomosho","Warri","Ikorodu",
+		           "Maiduguri","Ife","Bauchi","Akure","Abeokuta","Uyo","Oyo","Sokoto","Owerri","Yola","Calabar","Umuahia","Ondo","Minna","Lafia",
+		           "Okene","Katsina","Ikeja","Ado Ekiti","Awka","Makurdi","Gombe","Gusau","Osogbo","Jalingo","Abakaliki","Asaba","Nigeria"],
+        "spyNames": ["Abeni", "Abiodun", "Abubakar", "Adanna", "Chibuike", "Emeka", "Folasade", "Sani", "Joe"]
+    },
+{
+		"name": "Poland",
+		"leaderName": "Nikodem Rudawski",
+		"adjective": ["Polish"],
+		"startBias": ["Forest"],
+		"personality": "Polish",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Poland to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "I must protect the interests of Poland. Surrender quickly so that this may end without bloodshed...",
+		"attacked": "My armies will grind you to dust!",
+		"defeated": "Poland is not yet lost..!",
+	    	"denounced": "You think you're so brave?",
+		"introduction": "Welcome to the Republic of Poland. Care for some vodka?",
+		"neutralHello": "I salute you.",
+		"hateHello": "What are you looking for here?",
+		"tradeRequest": "How do you like my offer?",
+
+        "outerColor": [246,104,93],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "Mazurek Dąbrowskiego",
+	        "uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Warsaw","Kraków","Wrocław","Łódź","Poznań","Gdańsk","Szczecin","Lublin","Bydgoszcz","Białystok","Katowice","Gdynia","Częstochowa","Radom",
+		           "Rzeszów","Toruń","Sosnowiec","Kielce","Gliwice","Olsztyn","Zabrze","Bielsko-Biała","Bytom","Zielona Góra","Rybnik","Ruda Śląska",
+		           "Elbląg","Opole","Tychy","Gorzów Wielkopolski","Dąbrowa Górnicza","Płock","Wałbrzych","Włocławek","Tarnów","Chorzów","Poland"],
+        "spyNames": ["Antoni", "Jan", "Aleksander", "Leon", "Franciszek", "Fasola", "Ignacy", "Stanisław", "Mikołaj"]
+    },
+	{
+		"name": "Spain",
+		"leaderName": "Mateo Pineda",
+		"adjective": ["Spanish"],
+		"startBias": ["Plains"],
+		"personality": "Spanish",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Spain to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
+	    	"denounced": "Your words are terrible! Who comes up with such lies?",
+		"introduction": "Welcome to the Kingdom of Spain!",
+		"neutralHello": "Greetings.",
+		"hateHello": "Tonto...",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+
+        "outerColor": [84,26,26],
+        "innerColor": [255,168,168],
+
+		"uniqueName": "Plus Ultra",
+		"uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Madrid","Barcelona","Valencia","Seville","Zaragoza","Málaga","Murcia","Palma","Las Palmas","Bilbao","Alicante","Córdoba","Valladolid",
+		           "Vigo","Gijón","L'Hospitalet","Vitoria-Gasteiz","A Coruña","Elche","Granada","Terrassa","Badalona","Oviedo","Cartagena",
+		           "Sabadell","Jerez","Móstoles","Santa Cruz","Pamplona","Almería","Alcalá de Henares","León","Spain"],
+        "spyNames": ["Alejandro", "Daniel", "Juárez", "Senor Calvo", "Lucia", "Marta", "Cristina", "Pablo", "Sergio"]
+    },
+{
+		"name": "South Africa",
+		"leaderName": "Nolene Pretorius",
+		"adjective": ["South African"],
+		"startBias": ["Plains","Avoid [Tundra]"],
+		"personality": "South African",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead South Africa to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "You annoy us... prepare to be invaded.",
+		"attacked": "Your war won't solve anything..!",
+		"defeated": "What happened to our nation of South Africa? What could have done this...",
+	    	"denounced": "Yeah, sure...",
+		"introduction": "Welcome to the Republic of South Africa.",
+		"neutralHello": "Good morning!",
+		"hateHello": "What?",
+		"tradeRequest": "We'll trade our goods, as long as its a good trade. Ha! ...get it?",
+
+        "outerColor": [219,133,13],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "ke e: ǀxarra ǁke",
+		"uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["Bloemfontein","Cape Town","Pretoria","Durban","Johannesburg","Soweto","Port Elizabeth","Pietermaritzburg","Benoni","Tembisa","East London",
+		           "Vereeniging","Boksburg","Welkom","Newcastle","Krugersdorp","Diepsloot","Randburg","Botshabelo","Brakpan","Witbank","Richards Bay",
+		           "Vanderbijlpark","Centurion","Uitenhage","Roodepoort","Paarl","Springs","Carletonville","Klerksdorp","Midrand","Westonaria","South Africa"],
+        "spyNames": ["Lwandle", "Siyabonga", "Tjaart", "Marietjie", "Braam", "Omphile", "Theodore", "Henry", "Amelia"]
+    },
+{
+		"name": "Saudi Arabia",
+		"leaderName": "Khalifa bin Fadi Al Saud",
+		"adjective": ["Saudi","Saudi Arabian"],
+		"startBias": ["Arid"],
+		"personality": "Saudi Arabian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Saudi Arabia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "I promise none of us will taste peace, until you concede.",
+		"attacked": "It's shameful that we turn to violence, for it is not the behaviour of kings to kill each other..!",
+		"defeated": "This is not victory. Victory is changing the hearts of your opponents, through gentleness, through kindness...",
+	    	"denounced": "Everyone is critical of the flaws of others, but blind to their own.",
+		"introduction": " As-salamu alaykum, Welcome to the Kingdom of Saudi Arabia.",
+		"neutralHello": "Peace be upon you!",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "Come forth, let's do business.",
+
+        "outerColor": [43,88,46],
+        "innerColor": [146,221,10],
+
+		"uniqueName": "Lā ilāha illa allāh, Muḥammadun rasūlu allāh",
+		"cities": ["Riyadh","Jeddah","Mecca","Medina","Dammam","Hofuf","Taif","Tabuk","Buraydah","Khamis Mushayt","Al Jubayl","Hail","Najran","Hafr Al Batin",
+		           "Et Tukba","Abha","Al-Kharj","Yanbu","Al Khobar","Argali","Unayzah","Sakaki","El Hawiye","Jizan","Dhahran","Qatif","El Kurayyat"],
+        "spyNames": ["Muhammad Ali", "Nidal", "Qusay", "Abd al-Hadi", "Abd as-Salam", "Samiya", "Junaid", "Wahiba", "Imen"]
+    },
+{
+		"name": "Thailand",
+		"leaderName": "Kanda Metharom",
+		"adjective": ["Thai"],
+		"startBias": ["Jungle"],
+		"personality": "Thai",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Thailand to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "You lowly, arrogant fool! I will make you regret of your insolence!",
+		"attacked": "You scoundrel! I shall prepare to fend you off!",
+		"defeated": "Although I lost, my honor shall endure. I wish you good luck.",
+		"introduction": "Welcome to the Kingdom of Thailand.",
+		"neutralHello": "Welcome.",
+		"hateHello": "Greetings...",
+		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
+
+        "outerColor": [245,230,55],
+        "innerColor": [177,8,3],
+
+		"uniqueName": "The Land of Smiles",
+		"uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Bangkok","Nonthaburi","Pak Kret","Hat Yai","Chiang Mai","Nakhon Ratchasima","Udon Thani","Surat Thani","Khon Kaen",
+		           "Nakhon Si Thammarat","Pattaya","Nakhon Sawan","Ubon Ratchathani","Nakhon Pathom","Phitsanulok","Songkhla",
+		           "Phuket","Chiang Rai","Yala","Lampang","Mae Sot","Buriram"],
+        "spyNames": ["Amporn", "Kamon", "Prasert", "Somchai", "Wattana", "Suchart", "Mongkut", "Sovann", "Farah"]
+    },
+{
+		"name": "France",
+		"leaderName": "Louis Dubois",
+		"adjective": ["French"],
+		"startBias": ["Grassland"],
+		"personality": "French",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead France to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "You dare attack my sovereign nation? I don't believe even Napoleon could have predicted this!",
+		"defeated": "I have lived long enough to know when I am defeated. Carry on.",
+	    	"denounced": "The glory and might of France will not be tarnished by such obvious lies.",
+		"introduction": "Welcome to the French Republic!",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "The French Republic offers you this exceptional proposition.",
+
+        "outerColor": [38,98,255],
+        "innerColor": [239,236,148],
+
+		"uniqueName": "Liberté, égalité, fraternité",
+		"uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Paris","Marseille","Lyon","Toulouse","Nice","Nantes","Montpellier","Strasbourg","Bordeaux","Lille","Rennes","Reims","Toulon","Saint-Étienne","Le Havre",
+		           "Grenoble","Dijon","Angers","Saint-Denis","Villeurbanne","Nîmes","Clermont-Ferrand","Aix","Le Mans","Brest","Tours","Amiens","Limoges","Annecy",
+		           "Boulogne","Perpignan","Besançon","Orléans","Rouen","Montreuil","Nancy"],
+        "spyNames": ["Mrs. Petit", "Gabriel", "Raphaël", "Léo", "Louise", "Maël", "Adam", "Ambre", "Alba"]
+    },
+{
+		"name": "Australia",
+		"leaderName": "Henry Andrews",
+		"adjective": ["Australian"],
+		"startBias": ["Coast","Avoid [Tundra]"],
+		"personality": "Australian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Australia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+	    	"denounced": "Your slander of Australia and her people will be known far and wide when your enfeebled nation crumbles!",
+		"introduction": "Welcome to the Commonwealth of Australia.",
+		"neutralHello": "G'day!",
+		"hateHello": "What is it?",
+		"tradeRequest": "Australia offers you this exceptional proposition.",
+
+        "outerColor": [20,131,36],
+        "innerColor": [248,185,17],
+
+		"uniqueName": "The Land Down Under",
+		"uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Canberra","Melbourne","Sydney","Brisbane","Perth","Adelaide","Gold Coast","Newcastle","Sunshine Coast","Central Coast","Wollongong","Geelong",
+		           "Hobart","Townsville","Cairns","Toowoomba","Darwin","Ballarat","Bendigo","Launceston","Mackay","Rockhampton","Bunbury","Bundaberg",
+		           "Coffs Harbour","Hervey Bay","Wagga Wagga","Shepparton","Mildura","Port Macquarie","Gladstone"],
+        "spyNames": ["Noah", "Oliver", "Theodore", "Amelia", "Mia", "James", "Blake", "Holly", "Michele"]
+    },
+{
+		"name": "Canada",
+		"leaderName": "Ava Coyne",
+		"adjective": ["Canadian"],
+		"startBias": ["Tundra"],
+		"personality": "Canadian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Canada to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "As an unstinting malignancy defines your relationship to Canada, we have no recourse than war.",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "So ends our dream of a Canada that might have been. Our people are good-hearted, Rule with mercy...",
+		"introduction": "Welcome to the Canada.",
+		"neutralHello": "Hey!",
+		"hateHello": "What is it?",
+		"tradeRequest": "Canada offers you this exceptional proposition.",
+
+        "outerColor": [255,255,255],
+        "innerColor": [241,41,41],
+
+		"uniqueName": "From Sea to Sea",
+		"uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Ottawa","Toronto","Montreal","Calgary","Edmonton","Winnipeg","Mississauga","Vancouver","Brampton","Hamilton","Surrey","Quebec City",
+		           "Halifax","Laval","Markham","Vaughan","Gatineau","Saskatoon","Kitchener","Longueuil","Burnaby","Windsor","Regina","Niagara Falls"],
+        "spyNames": ["Sir. Canada", "Liam", "Lucas", "Charlotte", "Sophia", "Benjamin", "Henry", "Mila", "Hiawatha"]
+    },
+{
+		"name": "Colombia",
+		"leaderName": "Carlos Martinez",
+		"adjective": ["Colombian"],
+		"startBias": ["Hilly","Jungle"],
+		"personality": "Colombian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Colombia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you!",
+		"attacked": "You will see how fruitless this will be for you. Wait and see.",
+		"defeated": "Everything I have done, I did for the nation of Colombia. Soy un patriota hasta el final...",
+	    	"denounced": "Tyrant! Oppressor of the people! Foe of liberty! Your day of reckoning approaches!",
+		"introduction": "Welcome to the Republic of Colombia. ...You look tired, interested on some coffee?",
+		"neutralHello": "Quiubo.",
+		"hateHello": "Hmm? What do you want?",
+		"tradeRequest": "Come on! Let us both profit from this!",
+		"declaringFriendship": "We both serve liberty, Shall we plow the sea together?",
+
+        "outerColor": [1,42,108],
+        "innerColor": [245,217,0],
+
+		"uniqueName": "Libertad y Orden",
+		"uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Bogotá","Medellín","Cali","Barranquilla","Cartagena","Cúcuta","Soacha","Soledad","Bucaramanga","Villavicencio","Ibagué","Bello",
+		           "Santa Marta","Montería","Valledupar","Pereira","Manizales","Pasto","Neiva","Palmira","Popayán","Buenaventura","Cartago"],
+        "spyNames": ["Tomás", "Aarón", "Chucho", "Inmaculada", "Mercedes", "Diego", "Florentino", "Antonia", "Manuel"]
+    },
+{
+		"name": "Sweden",
+		"leaderName": "Evelyn Nilsson",
+		"adjective": ["Swedish"],
+		"startBias": ["Tundra"],
+		"personality": "Swedish",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Sweden to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "Sweden will do her part to push back the evils of the world. Art is one way to do this—war with you is another.",
+		"attacked": "Sweden will chastise those who threaten the world. Prepare yourself for war!",
+		"defeated": "I never loved power, and now I am left without art. Only regret and loss remain for me.",
+	    	"denounced": "I will tell the whole world of your villainy, of your boorishness, of your perfidy!",
+		"introduction": "Welcome to the Kingdom of Sweden, now you may see her king on your next visit.",
+		"neutralHello": "Tack!",
+		"hateHello": "Uneducated fool...",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+		"declaringFriendship": "Will you join me as we tell the world that our nations are friends with one another? We will surely inspire them all.",
+
+        "outerColor": [0,85,131],
+        "innerColor": [255,194,0],
+
+		"uniqueName": "Du gamla, du fria",
+		"uniques": ["Starts with [Constitutional Monarchy] adopted"],
+		"cities": ["Stockholm","Gothenburg","Malmö","Uppsala","Västerås","Örebro","Linköping","Helsingborg","Jönköping","Lund","Norrköping","Umeå",
+		           "Gävle","Södertälje","Borås","Växjö","Halmstad","Sundsvall","Eskilstuna","Karlstad","Östersund","Trollhättan","Luleå",
+		           "Northeast Gothenburg","Tumba","Lidingö","Borlänge","Kalmar","Kristianstad","Höör"],
+        "spyNames": ["William", "August", "Nils", "Alma", "Alice", "Otto", "Oliver", "Ándaras", "Elina"]
+    },
+{
+		"name": "Italy",
+		"leaderName": "Leonardo Ricchetti",
+		"adjective": ["Italian"],
+		"startBias": ["Avoid [Tundra]","Avoid [Arid]"],
+		"personality": "Italian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Italy to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "We have recently declared war on your state. You may send your troops, but they won't stop your downfall...",
+		"attacked": "Your insolence will be the end of your leadership, and your call for war will not solve anything.",
+		"defeated": "Il benessere dei sconfitti è non sperare in molto altro benessere.",
+	    	"denounced": "Ah yes, it seems someone is jelous...",
+		"introduction": "Welcome to the Italian Republic...",
+		"neutralHello": "Welcome, welcome.",
+		"hateHello": "Hmph?",
+		"tradeRequest": "Do we have an agreement, my friend?",
+		"declaringFriendship": "May we call you our friend at this moment?",
+
+        "outerColor": [0,140,60],
+        "innerColor": [207,41,34],
+
+		"uniqueName": "Repubblica Italiana",
+		"uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["Rome","Milan","Naples","Turin","Palermo","Genoa","Bologna","Florence","Bari","Catania","Verona","Venice","Messina",
+		           "Padua","Brescia","Parma","Trieste","Prato","Taranto","Modena","Reggio Emilia","Reggio Calabria","Perugia",
+		           "Ravenna","Livorno","Rimini","Cagliari","Foggia","Ferrara","Latina"],
+        "spyNames": ["Mr. Renetti", "Tommaso", "Francesco", "Aurora", "Mattia", "Vittoria", "Riccardo", "Ludovica", "Alessandro"]
+    },
+{
+		"name": "Austria",
+		"leaderName": "Marie Andres",
+		"adjective": ["Austrian"],
+		"startBias": ["Hilly"],
+		"personality": "Austrian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Austria to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "It is not our fault that we have gone to war with you, you should have thought of respecting us more...",
+		"attacked": "You have clearly lost your mind... You will colapse quickly to our forces!",
+		"defeated": "Ugh, you know what? This world can kiss my ass. I am leaving this world to rot... Goodbye, Scum..!",
+		"introduction": "Welcome to the Republic of Austria, my dear friend.",
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's ye!",
+		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "Nation of the Alps",
+		"uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Vienna","Graz","Linz","Salzburg","Innsbruck","Klagenfurt","Villach","Wels","Sankt Pölten","Dornbirn","Wiener Neustadt",
+		           "Steyr","Feldkirch","Bregenz","Leonding","Klosterneuburg","Baden","Leoben","Wolfsberg","Traun","Schlatt"],
+        "spyNames": ["Paul", "Jakob", "Maximilian", "Emilia", "Felix", "Valentina", "Leon", "Laura", "Kornél"]
+    },
+{
+		"name": "Mexico",
+		"leaderName": "José Guerrero",
+		"adjective": ["Mexican"],
+		"startBias": ["Plains"],
+		"personality": "Mexican",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Mexico to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "First comes the homeland, therefore you must not be in my way.",
+		"attacked": "Lets see how brave you are when we meet on the battlefield!",
+		"defeated": "The nation of Mexico has fallen! I have failed the plans that past leaders have laid out for me...",
+		"introduction": "Welcome to the United Mexican States, Amigo!",
+		"neutralHello": "Amigo!",
+		"hateHello": "WHAT?",
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+
+        "outerColor": [0,140,60],
+        "innerColor": [207,41,34],
+
+		"uniqueName": "Valley of Mexico",
+		"uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Mexico City","Tijuana","Ecatepec","León","Puebla","Ciudad Juárez","Guadalajara","Monterrey","Neza","Zapopan","Chihuahua",
+		           "Mérida","Naucalpan","Cancún","Saltillo","Aguascalientes","Hermosillo","Mexicali","San Luis","Culiacán","Querétaro",
+		           "Morelia","Chimalhuacán","Reynosa","Torreón","Tlalnepantla","Acapulco","Tlaquepaque"],
+        "spyNames": ["Donaciano", "Gilberta", "Jaziel", "Nayeli", "Valente", "Yunuen", "Abuelita", "Catarino", "Fortino"]
+    },
+{
+		"name": "Egypt",
+		"leaderName": "Magdy el-Mofty",
+		"adjective": ["Egyptian"],
+		"startBias": ["Arid"],
+		"personality": "Egyptian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Egypt to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a complete fool! You have brought nothing but war and conflict upon your awful country.",
+		"defeated": "Break down our cities and destroy Egypt... We shall remain and you'll win nothing.",
+	    	"denounced": "You dare insult the nation of Egypt? You will regret this.",
+		"introduction": "Welcome to the Arab Republic of Egypt.",
+		"neutralHello": "Greetings...",
+		"hateHello": "WHAT!?",
+		"tradeRequest": "The Generous Arab Republic of Egypt makes you this offer.",
+		"declaringFriendship": "Many would kill for my friendship. It's a generous offer, but I offer it to you. What is your answer?",
+
+        "outerColor": [255,252,3],
+        "innerColor": [83,0,208],
+
+		"uniqueName": "Cradle of Civilisation",
+		"uniques": ["Starts with [Authoritarianism] adopted"],
+		"cities": ["Cairo","Alexandria","Giza","Shubra El Kheima","El Maḥalla","Port Said","Suez","Mansoura","Tanta","Asyut",
+		           "Faiyum","Zagazig","Ismailia","Aswan","Damanhur","Damietta","Minya","Beni Suef","Luxor","Shibin El Kom"],
+        "spyNames": ["Gamal", "Gamila", "Khadiga", "Magdi", "Menna", "Nermin", "Galal", "Abdelaal", "Kinzi"]
+    },
+{
+		"name": "Ethiopia",
+		"leaderName": "Eskender Abdi",
+		"adjective": ["Ethiopian"],
+		"startBias": ["Jungle"],
+		"personality": "Ethiopian",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Ethiopia to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "We have tried going through many paths for peace, but met with failure each time. We hope for this war to end as quick as it starts...",
+		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
+		"defeated": "Our defeat will be remembered by Ethiopian historians for years to come, and I stand here, knowing you will be judged for your actions very soon.",
+	    	"denounced": "What a waste of time.",
+		"introduction": "Welcome to the Federal Democratic Republic of Ethiopia...  Adwa Victory Day is coming up next week, mind joining me for this celebration?",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I request that you consider this offer between our two nations. I believe it will do us both good.",
+
+        "outerColor": [18,66,22],
+        "innerColor": [255,56,56],
+
+		"uniqueName": "Wedefīt Gesigishī Wid Inat ītiyop’iy",
+		"uniques": ["Starts with [Authoritarianism] adopted"],
+		"cities": ["Addis Ababa","Dire Dawa","Mekelle","Adama","Awassa","Bahir Dar","Gonder","Dessie","Jimma","Jijiga","Shashamane","Bishoftu","Sodo",
+		           "Arba Minch","Hosaena","Harar","Dilla","Nekemte","Debre Birhan","Asella","Debre Mark'os","Kombolcha","Adwa","Mojo"],
+        "spyNames": ["Haile", "Haregewoin", "Samuel", "Selamawit", "Tadesse", "Yohannes", "Ayele", "Almaz", "Hibo"]
+    },
+{
+		"name": "Israel",
+		"leaderName": "Michael Yaffe",
+		"adjective": ["Israeli"],
+		"startBias": ["Arid","Coast"],
+		"personality": "Israeli",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Israel to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "throughout history, we've seen nations around us arming themselves against us. You are no different, and so Israel must deal with you accordingly...",
+		"attacked": "I will make you pay for what you've done! We will defend our land and rid your country of its evil.",
+		"defeated": "It pains me to surrender to terrorists... But this is only the beginning of our suffering...",
+	    	"denounced": "You are deranged. Arguing with anti-Semites is a waste of time.",
+		"introduction": "Welcome to the State of Israel! I'm sure we'll get along just fine.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Israel suggests that you trade with us for now.",
+
+        "outerColor": [255,255,255],
+        "innerColor": [0,56,184],
+
+		"uniqueName": "The land of Israel",
+		"uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["Jerusalem","Tel Aviv","Haifa","Petah Tikva","Rishon LeZion","Ashdod","Netanya","Bnei Brak","Beersheba","Holon","Ramat Gan",
+		           "Rehovot","Beit Shemesh","Ashkelon","Bat Yam","Hadera","Herzliya","Kfar Saba","Nazareth","Harish"],
+        "spyNames": ["Abraham", "Adina", "Adi", "Benjamin", "David", "Eldad", "Elisheva", "Ofira", "Shay"]
+    },
+{
+		"name": "Pakistan",
+		"leaderName": "Ahmad Kamal",
+		"adjective": ["Pakistani"],
+		"startBias": ["Arid","Hilly"],
+		"personality": "Pakistani",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Pakistan to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "All of the people of our nation are willing to die for Pakistan! Your cowardly soldiers are doomed to fall.",
+		"attacked": "If a simple land dispute is enough justifycation for war, then we will put you in your place.",
+		"defeated": "The country has fallen to you, but this doesn't mean we accept defeat! For we all stand for Pakistan. We shall be back...",
+		"introduction": "Welcome to the Islamic Republic of Pakistan, and come visit Karachi, we have so much to show you.",
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Pakistan suggests that you trade with us for now.",
+
+        "outerColor": [0,64,26],
+        "innerColor": [255,255,255],
+
+		"uniqueName": "Faith, Unity, Discipline",
+		"uniques": ["Starts with [Parliamentary Republic] adopted"],
+		"cities": ["Islamabad","Karachi","Lahore","Faisalabad","Rawalpindi","Gujranwala","Multan","Hyderabad","Peshawar","Quetta",
+		           "Sargodha","Sialkot","Bahawalpur","Jhang","Sheikhupura","Gujrat","Sukkur","Larkana","Sahiwal","Okara","Rahim Yar Khan",
+		           "Kasur","Dera Ghazi Khan","Wah Cantonment","Mardan","Nawabshah","Turbat","Mirpur Khas"],
+        "spyNames": ["Aamir", "Abdullah", "Aiza", "Bakhtiar", "Bushra", "Fariha", "Haroon", "Jahangir", "Khurshid"]
+    },
+{
+		"name": "South Korea",
+		"leaderName": "Namgung Young-sook",
+		"adjective": ["South Korean"],
+		"startBias": ["Coast"],
+		"personality": "South Korean",
+
+        "startIntroPart1": "As the cold war comes to an end, a new century begins to rise. Now we may look forward to a new time of potential peace and harmony, through to an unknown future...",
+        "startIntroPart2": "It is now your time to lead us to this new future. Will you lead Korea to a peaceful future, or a great conquest? Will you lead to economic prosperity or cultural dominance? You shall decide...",
+
+        "declaringWar": "The National Assembly of the Republic of Korea will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people..? A dark age has come.",
+		"introduction": "Welcome to the Republic of Korea, the true Korea.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+
+        "outerColor": [255,255,255],
+        "innerColor": [0,71,160],
+
+		"uniqueName": "대한민국 (The Republic of Korea)",
+		"uniques": ["Starts with [Presidential Republic] adopted"],
+		"cities": ["Seoul","Busan","Incheon","Daegu","Daejeon","Gwangju","Suwon","Ulsan","Yongin","Goyang","Changwon","Seongnam",
+		           "Hwaseong","Cheongju","Bucheon","Ansan","Namyangju","Cheonan","Jeonju","Gimhae","Pyeongtaek",
+		           "Anyang","Siheung","Pohang","Jeju city","Uijeongbu","Sejong"],
+        "spyNames": ["Kim", "Jeong", "Choi", "Sung-min", "So-yul", "Mi-gyeong", "Kun-woo", "Jun", "Haneul"]
+    },
+	// City-States
+    {
+		"name": "Belgium",
+		"adjective": ["Belgiumese"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127, 177, 236],
+		"cities": ["Brussels"]
+	},
+	{
+		"name": "Afghanistan",
+		"adjective": ["Afghan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Allahu akbar!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Kabul"]
+	},
+	{
+		"name": "Finland",
+		"adjective": ["Finnish"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Tonight, the snow speaks Finnish...",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Helsinki"],
+	},
+	{
+		"name": "Philippines",
+		"adjective": ["Filipino","Pinoy"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You must shatter the vase to spread its perfume, and smite the rock to get the spark.",
+		"attacked": "We do not sleep; we wait for you with fire in our hearts and weapons in our hands.",
+		"defeated": "Consummatum est...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [113, 227, 114],
+		"cities": ["Manila"]
+	},
+	{
+		"name": "Somalia",
+		"adjective": ["Somali"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This nation serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127, 177, 236],
+		"cities": ["Mogadishu"],
+	},
+	{
+		"name": "Singapore",
+		"adjective": ["Singaporean"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [246, 253, 160],
+		"cities": ["Singapore"]
+	},
+	{
+		"name": "Lebanon",
+		"adjective": ["Lebanese"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [121, 226, 0],
+		"cities": ["Beirut"]
+	},
+	{
+		"name": "Tanzania",
+		"adjective": ["Tanzanian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127,177,236],
+		"cities": ["Dodoma"]
+	},
+	{
+		"name": "Kazakhstan",
+		"adjective": ["Kazakh","Kazakhstani"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [217,158,78],
+		"cities": ["Astana"]
+	},
+	{
+		"name": "Argentina",
+		"adjective": ["Argentine","Argentinian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [110,170,229],
+		"cities": ["Buenos Aires"]
+	},
+	{
+		"name": "Zimbabwe",
+		"adjective": ["Zimbabwean"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could you..?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [241,179,34],
+		"cities": ["Harare"]
+	},
+	{
+		"name": "New Zealand",
+		"adjective": ["New Zealander","Kiwi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "After thorough deliberation, New Zealand finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [68, 77, 126],
+		"cities": ["Wellington","Auckland"]
+	},
+	{
+		"name": "Qatar",
+		"adjective": ["Qatari"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your country!",
+		"attacked": "Why do we fight? Because Allah demands it. Now, witness the power of Qatar!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151, 35, 82],
+		"cities": ["Doha"],
+	},
+	{
+		"name": "Fiji",
+		"adjective": ["Fijian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "After thorough thought, The Fiji nation finds itself at dead ends. Prepare yourself, for we are coming.",
+		"attacked": "As we can reach no peaceful resolution with you, Fiji must turn, with reluctance, to war.",
+		"defeated": "You suck...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [10,217,228],
+		"cities": ["Suva"],
+	},
+	{
+		"name": "Chile",
+		"adjective": ["Chilean"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We will crush you!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [98, 78, 6],
+		"cities": ["Santiago"],
+	},
+	{
+		"name": "Portugal",
+		"adjective": ["Portuguese"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "I have declared war against you. I did not want to do this, but I don't want you around anymore, either.",
+		"attacked": "What have I done to offend you so? Oh well, it is too late to fix this mistake. How regrettable, that we must go to war.",
+		"defeated": "I am told that you are the conqueror of Portugal. That may be the reality, but I will never recognize your victory. Begone!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [239,14,25],
+		"cities": ["Lisbon"],
+	}
+	{
+		"name": "Greece",
+		"adjective": ["Greek"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "This is for the greater good. You will understand...in time.",
+		"attacked": "Soldiers are not like trees. When they are destroyed, they are not so easily replaced...",
+		"defeated": "You may have defeated us, but what we leave behind is woven into the lives of others.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [65,141,254],
+		"cities": ["Athens"],
+	}
+	{
+		"name": "Vietnam",
+		"adjective": ["Vietnamese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167,162,216],
+		"cities": ["Hanoi"]
+	},
+	{
+		"name": "Albania",
+		"adjective": ["Albanian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 163, 181],
+		"cities": ["Tirana"]
+	},
+	{
+		"name": "Romania",
+		"adjective": ["Romanian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [252,209,22],
+		"cities": ["Bucharest"]
+	},
+	{
+		"name": "Bangladesh",
+		"adjective": ["Bangladeshi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Even in defeat we won't bow down to you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,140,60],
+		"cities": ["Dhaka"]
+	},
+	{
+		"name": "DR Congo",
+		"adjective": ["Congolese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Even in defeat we won't bow down to you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,163,181],
+		"cities": ["Kinshasa"]
+	},
+	{
+		"name": "Algeria",
+		"adjective": ["Algerian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Surrender? I would rather die!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,140,60],
+		"cities": ["Algiers"]
+	},
+	{
+		"name": "Palestine",
+		"adjective": ["Palestinian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "From the river to the sea!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Even in defeat we won't bow down to you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [3,138,39],
+		"cities": ["East Jerusalem"]
+	},
+	{
+		"name": "Kenya",
+		"adjective": ["Kenyan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [184,21,9],
+		"cities": ["Nairobi"]
+	},
+	{
+		"name": "Sudan",
+		"adjective": ["Sudanese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,114,41],
+		"cities": ["Khartoum","Port Sudan"]
+	},
+	{
+		"name": "Switzerland",
+		"adjective": ["Swiss","Schweizer"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We thought we would never fall.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,0,0],
+		"cities": ["Bern","Zurich"]
+	},
+	{
+		"name": "Czech Republic",
+		"adjective": ["Czech"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We thought we would never fall.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,0,255],
+		"cities": ["Prague"]
+	},
+	{
+		"name": "Ireland",
+		"adjective": ["Irish"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We won't be pushed around so easily, for we have gaelic warrior blood!",
+		"defeated": "You'll pay for this one day, bastard..!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [22,155,98],
+		"cities": ["Dublin"]
+	},
+	{
+		"name": "Norway",
+		"adjective": ["Norwegian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick defeat.",
+		"attacked": "We won't be pushed around so easily, for we have viking blood!",
+		"defeated": "So, I will join the einherjar in Valhalla and feast, while you toil away here.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,32,91],
+		"cities": ["Oslo"]
+	},
+	{
+		"name": "North Korea",
+		"adjective": ["North Korean"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Anyone who doesn't recognise us as the true Korea will face destruction!",
+		"attacked": "The south can't stand against a powerful north!",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [212,13,13],
+		"cities": ["Pyongyang"]
+	},
+	{
+		"name": "Estonia",
+		"adjective": ["Estonian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could you..?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,114,206],
+		"cities": ["Tallinn"]
+	},
+	{
+		"name": "Morocco",
+		"adjective": ["Moroccan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Such a shame, that we have to resort to violence...",
+		"defeated": "The gain is having a clean system from corruption.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,99,65],
+		"cities": ["Rabat"]
+	},
+	{
+		"name": "Ukraine",
+		"adjective": ["Ukrainian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,87,183],
+		"cities": ["Kyiv"]
+	},
+	{
+		"name": "Netherlands",
+		"adjective": ["Dutch"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
+		"attacked": "You think you are a great and strong leader, but all I see from you is a big drooling fool!",
+		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [216,120,0],
+		"cities": ["Amsterdam"]
+	},
+	{
+		"name": "Serbia",
+		"adjective": ["Serbian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Even if Serbia falls, I'll be our people's leader.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [199,54,61],
+		"cities": ["Belgrade"]
+	},
+	{
+		"name": "Mongolia",
+		"adjective": ["Mongolian","Mongol"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "It was great while it lasted...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,212,0],
+		"cities": ["Ulaanbaatar"]
+	},
+	{
+		"name": "Bolivia",
+		"adjective": ["Bolivian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "It was great while it lasted...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [244,228,0],
+		"cities": ["Sucre","La Paz"]
+	},
+	{
+		"name": "Iraq",
+		"adjective": ["Iraqi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your country!",
+		"attacked": "Why do we fight? Because Allah demands it. Now, witness the power of Iraq!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [205,17,37],
+		"cities": ["Baghdad"]
+	},
+	{
+		"name": "Myanmar",
+		"adjective": ["Burmese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "'Till the End of the World...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [254,203,0],
+		"cities": ["Naypyidaw"]
+	},
+
+]

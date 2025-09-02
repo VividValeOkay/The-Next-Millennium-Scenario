@@ -1,0 +1,246 @@
+[
+
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 2,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Library",
+		"cost": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [4] population [in this city]"],
+	},
+        {
+		"name": "Steel Manufactory",
+    "production": 1,
+		"cost": 65,
+		"uniques": ["Provides [2] [Steel]"],
+		"requiredResource": "Iron",
+		"requiredTech": "Steel Working",
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 2,
+		"happiness": 1,
+		"percentStatBonus": {"culture": 33},
+		"maintenance": 1,
+		"requiredTech": "Radio and Television Media",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Stadium",
+		"happiness": 3,
+		"maintenance": 1,
+		"requiredTech": "Radio and Television Media"
+	},
+	{
+		"name": "Research Lab",
+		"science": 2,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 2,
+		"requiredTech": "More Advanced Supercomputers"
+	},
+	{
+		"name": "Factory",
+		"maintenance": 1,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Fabrication"
+	},
+	{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Advanced Economics"
+	},
+	{
+		"name": "Robotics Lab",
+		"science": 3,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"requiredTech": "Robotic Science"
+	},
+	{
+		"name": "Hospital",
+		"food": 4
+		"happiness": 1,
+		"maintenance": 2,
+		"cost": 150,
+		"requiredTech": "Healthcare Improvements",
+	},
+	{
+		"name": "Museum",
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Advanced Culture III",
+	},
+	{
+		"name": "Motor Parts Manufactory",
+                "production": 1,
+		"cost": 90,
+		"uniques": ["Provides [2] [Motor Parts]"],
+		"requiredResource": "Steel",
+		"requiredTech": "Tank Design",
+	},
+	{
+		"name": "Electronic Parts Manufactory",
+        "production": 1,
+		"cost": 90,
+		"uniques": ["Provides [2] [Electronic Parts]"],
+		"requiredResource": "Copper",
+		"requiredTech": "Advanced Economics",
+	},
+	{
+		"name": "Uranium Enricher",
+        "production": 1,
+		"cost": 180,
+		"uniques": ["Provides [3] [Enriched Uranium]"],
+		"requiredResource": "Uranium",
+		"requiredTech": "Uranium Enrichment",
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 3,
+        "maintenance": 3,
+		"requiredResource": "Steel",
+		"cost": 800,
+		"requiredBuilding": "Decent City Developments",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
+		"requiredTech": "Advanced Science"
+	},
+	{
+		"name": "Space Program",
+		"cost": 1300,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Advanced Science"
+	},
+	{
+		"name": "Utopia Project",
+		"cost": 2100,
+		"isNationalWonder": true,
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [4]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
+	}
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 3,
+		"requiredTech": "Globalisation",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	{
+		"name": "Zoo",
+		"happiness": 2,
+		"requiredTech": "Advanced Culture III",
+		"cost": 80,
+		"hurryCostModifier": 40,
+	},
+	{
+		"name": "Deep Space Radar",
+		"science": 3,
+		"requiredTech": "Advanced Science",
+		"cost": 200,
+		"hurryCostModifier": 60,
+		"uniques": ["[+15]% [Science] from every [Spaceship Factory]"]
+	},
+	{
+		"name": "Fire Station",
+		"food": 2,
+		"requiredTech": "Healthcare Improvements",
+		"cost": 120,
+		"hurryCostModifier": 40,
+	},
+    {
+        "name": "Police Station",
+        "cost": 160,
+        "maintenance": 2,
+        "hurryCostModifier": 30,
+        "uniques": ["Only available <when espionage is enabled>", "Gain an extra spy"],
+        "requiredTech": "National Security"
+    },
+
+	// City Development
+	  {
+		"name": "Basic City Developments",
+		"happiness": 1,
+		"cost": 80,
+		"hurryCostModifier": 40,
+		"uniques": ["[+1 Gold] per [8] population [in this city]","[+1 Production] per [8] population [in this city]","[-5]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "City Developments",
+		"happiness": 1,
+		"cost": 140,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "Basic City Developments",
+		"uniques": ["[+1 Gold] per [8] population [in this city]","[+1 Production] per [8] population [in this city]","[-10]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "Decent City Developments",
+		"happiness": 1,
+		"cost": 200,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "City Developments",
+		"uniques": ["[+1 Gold] per [8] population [in this city]","[+1 Production] per [8] population [in this city]","[-10]% Culture cost of natural border growth [in this city]"]
+	},
+	// Great Improvement buildings
+
+	 {
+		"name": "Build Industrial Complex",
+		"cost": 140,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "City Developments",
+		"requiredTech": "Specialised Construction"
+		"uniques": ["Creates a [Industrial Complex] improvement on a specific tile"]
+	},
+	 {
+		"name": "Build Suburbs",
+		"cost": 140,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "City Developments",
+		"requiredTech": "Specialised Construction"
+		"uniques": ["Creates a [Suburb] improvement on a specific tile"]
+	},
+	{
+		"name": "Build Landmark",
+		"cost": 240,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "City Developments",
+		"requiredTech": "Specialised Construction II"
+		"uniques": ["Creates a [Landmark] improvement on a specific tile"],
+	},
+		{
+		"name": "Build Corporation",
+		"cost": 240,
+		"hurryCostModifier": 40,
+		"requiredBuilding": "City Developments",
+		"requiredTech": "Specialised Construction II"
+		"uniques": ["Creates a [Corporation] improvement on a specific tile"],
+	},
+]

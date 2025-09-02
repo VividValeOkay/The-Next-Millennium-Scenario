@@ -1,0 +1,273 @@
+[
+    {
+        "name": "Cultural",
+        "era": "21st Century",
+        "priorities": {
+            "Neutral": 5,
+            "Domination": 5,
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            "[-15]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Cultural Heritage",
+                "uniques": [
+                    "[+1 Culture] from all [Monument] buildings",
+                ],
+                "row": 1,
+                "column": 1
+            },
+           {
+                "name": "Cultural Integration",
+                "uniques": [
+                    "[+1 Culture] per [7] population [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+           {
+                "name": "Improved Political Science",
+                "uniques": [
+                    "[+1 Culture] [in all cities]",
+                ],
+                "row": 2,
+                "column": 2
+            },
+          {
+                "name": "Strengthen National Identity",
+                "uniques": [
+                    "[+15]% [Happiness]",
+                ],
+                "row": 2,
+                "column": 4
+            },
+           {
+                "name": "Cultural Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Monument] in your first [3] cities for free"
+                ]
+            }
+        ]
+    },
+     {
+        "name": "Economics",
+        "era": "21st Century",
+        "priorities": {
+            "Neutral": 5,
+            "Domination": 5,
+        },
+        "uniques": [
+            "[+1 Gold] [in capital]",
+            "[+1 Gold] per [8] population [in capital]"
+        ],
+        "policies": [
+             {
+                "name": "Higher Taxation",
+                "uniques": [
+                    "[+18]% [Gold] [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+             {
+                "name": "Improved Welfare",
+                "uniques": [
+                    "[+20]% [Food] [in all cities]",
+                    "[-25]% Unhappiness from [Population] [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+           {
+                "name": "National Census",
+                "uniques": [
+                    "[+1 Gold] per [5] population [in all cities]",
+                ],
+                "row": 2,
+                "column": 1
+            },
+             {
+                "name": "Agricultural Act",
+                "uniques": [
+                    "[+20]% [Food] [in all cities]",
+                    "[+1 Gold] from [Farm] tiles [in capital]",
+                    "[+1 Gold] from [Pasture] tiles [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+             {
+                "name": "Economics Complete",
+                "uniques": [
+                    "[+25]% [Gold]",
+                ]
+            }
+        ]
+    },
+      {
+        "name": "Sciences",
+        "era": "21st Century",
+        "priorities": {
+            "Neutral": 5,
+            "Domination": 5,
+        },
+        "uniques": [
+            "[+1 Science] [in capital]",
+            "[+1 Science] per [8] population [in capital]"
+        ],
+        "policies": [
+             {
+                "name": "Hire More Researchers",
+                "uniques": [
+                    "[+18]% [Science] [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+             {
+                "name": "Improved Education",
+                "uniques": [
+                    "[+1 Science] per [7] population [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+             {
+                "name": "Advance the Research Bureau",
+                "uniques": [
+                    "[+15]% [Science]",
+                ],
+                "row": 2,
+                "column": 2
+            },
+             {
+                "name": "Sciences Complete",
+                "uniques": [
+                    "[+25]% [Gold]",
+                ]
+            }
+        ]
+    },
+          {
+        "name": "Industry",
+        "era": "21st Century",
+        "priorities": {
+            "Neutral": 5,
+            "Domination": 5,
+        },
+        "uniques": [
+            "[+1 Production] [in capital]",
+            "[+1 Production] per [8] population [in capital]"
+        ],
+        "policies": [
+             {
+                "name": "Service Sector",
+                "uniques": [
+                    "[+18]% [Production] [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+             {
+                "name": "Economic Goods",
+                "uniques": [
+                    "[+20]% [Production] from every [Factory]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+             {
+                "name": "The Public Service Act",
+                "uniques": [
+                    "[+25]% Yield from every [Industrial Complex]",
+                ],
+                "row": 2,
+                "column": 2
+            },
+             {
+                "name": "Improve Infrastructure",
+                "uniques": [
+                    "[+15]% [Gold] [in all cities]",
+                    "[+15]% [Production] [in all cities]",
+                ],
+                "row": 2,
+                "column": 4
+            },
+             {
+                "name": "Industry Complete",
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                ]
+            }
+        ]
+    },
+          {
+        "name": "Ideologies",
+        "era": "21st Century",
+        "priorities": {
+            "Neutral": 5,
+            "Domination": 5,
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            "Unavailable",
+        ],
+        "policies": [
+             {
+                "name": "Presidential Republic",
+                "uniques": [
+                    "[-30]% Culture cost of adopting new Policies",
+                    "Unavailable",
+                ],
+                "row": 1,
+                "column": 1
+            },
+             {
+                "name": "Parliamentary Republic",
+                "uniques": [
+                    "[+2 Gold] [in all cities]",
+                    "Unavailable",
+                ],
+                "row": 1,
+                "column": 3,
+            },
+                 {
+                "name": "Constitutional Monarchy",
+                "uniques": [
+                    "[+1 Gold] [in all cities]",
+                    "[-22]% maintenance costs <for [All] units>",
+                    "Unavailable",
+                ],
+                "row": 1,
+                "column": 5,
+            },
+                    {
+                "name": "Authoritarianism",
+                "uniques": [
+                    "[-44]% maintenance costs <for [All] units>",
+                    "Unavailable",
+                ],
+                "row": 2,
+                "column": 1,
+            },
+                    {
+                "name": "Socialist Republic",
+                "uniques": [
+                    "[-40]% maintenance cost for [all] buildings [in all cities]",
+                    "Unavailable",
+                ],
+                "row": 2,
+                "column": 3,
+            },
+             {
+                "name": "Ideologies Complete",
+                "uniques": [
+                    "[+1 Happiness] [in all cities]",
+                ]
+            }
+        ]
+    },
+]
