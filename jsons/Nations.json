@@ -1799,5 +1799,65 @@
 		"innerColor": [58, 232, 14],
 		"cities": ["Brazzaville"]
 	},
+	{
+		"name": "Oman",
+		"adjective": ["Omani"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Muscat"]
+	},
+	{
+		"name": "Gabon",
+		"adjective": ["Gabonese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [36, 145, 9],
+		"cities": ["Libreville"]
+	},
+	{
+		"name": "Laos",
+		"adjective": ["Laotian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [15, 12, 194],
+		"cities": ["Vientiane"]
+	},
+	{
+		"name": "Guyana",
+		"adjective": ["Guyanan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [131, 219, 24],
+		"cities": ["Georgetown"]
+	},
+	{
+		"name": "Belarus",
+		"adjective": ["Belarusian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [219, 24, 24],
+		"cities": ["Minsk"]
+	},
 
 ]
