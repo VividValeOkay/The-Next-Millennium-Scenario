@@ -1547,5 +1547,245 @@
 		"innerColor": [0,158,73],
 		"cities": ["Ouagadougou"]
 	},
+	{
+		"name": "Taiwan",
+		"adjective": ["Taiwanese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [52, 105, 227],
+		"cities": ["Taipei"]
+	},
+	{
+		"name": "Mali",
+		"adjective": ["Malian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 228, 22],
+		"cities": ["Bamako"]
+	},
+	{
+		"name": "Sri Lanka",
+		"adjective": ["Sri Lankan"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [148,30,50],
+		"cities": ["Colombo"]
+	},
+	{
+		"name": "Malawi",
+		"adjective": ["Malawian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [168, 5, 5],
+		"cities": ["Lilongwe"]
+	},
+	{
+		"name": "Zambia",
+		"adjective": ["Zambian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [20, 127, 85],
+		"cities": ["Lusaka"]
+	},
+	{
+		"name": "Chad",
+		"adjective": ["Chadian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 223, 12],
+		"cities": ["N'Djamena"]
+	},
+	{
+		"name": "Senegal",
+		"adjective": ["Senegalese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 223, 12],
+		"cities": ["Dakar"]
+	},
+	{
+		"name": "Ecuador",
+		"adjective": ["Ecuadorian"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 223, 12],
+		"cities": ["Quito"]
+	},
+	{
+		"name": "Guatemala",
+		"adjective": ["Guatemalan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [10, 202, 209],
+		"cities": ["Guatemala City"]
+	},
+	{
+		"name": "Cambodia",
+		"adjective": ["Cambodian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [10, 50, 209],
+		"cities": ["Phnom Penh"]
+	},
+	{
+		"name": "South Sudan",
+		"adjective": ["South Sudanese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [10, 202, 209],
+		"cities": ["Juba"]
+	},
+	{
+		"name": "Rwanda",
+		"adjective": ["Rwandan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [10, 202, 209],
+		"cities": ["Kigali"]
+	},
+	{
+		"name": "Benin",
+		"adjective": ["Beninese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [40, 158, 61],
+		"cities": ["Porto-Novo"]
+	},
+	{
+		"name": "Denmark",
+		"adjective": ["Danish"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [219, 20, 20],
+		"cities": ["Copenhagen"]
+	},
+	{
+		"name": "Mauritania",
+		"adjective": ["Mauritanian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,215,0],
+		"cities": ["Nouakchott"]
+	},
+	{
+		"name": "Namibia",
+		"adjective": ["Namibian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [17, 19, 168],
+		"cities": ["Windhoek"]
+	},
+	{
+		"name": "Botswana",
+		"adjective": ["Botswanan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [118, 200, 232],
+		"cities": ["Gaborone"]
+	},
+	{
+		"name": "Turkmenistan",
+		"adjective": ["Turkmen"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [9, 117, 7],
+		"cities": ["Ashgabat"]
+	},
+	{
+		"name": "Papua New Guinea",
+		"adjective": ["Papuan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153, 57, 9],
+		"cities": ["Port Moresby"]
+	},
+	{
+		"name": "Paraguay",
+		"adjective": ["Paraguayan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [14, 46, 207],
+		"cities": ["Asunción"]
+	},
 
 ]
