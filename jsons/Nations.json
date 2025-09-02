@@ -1787,5 +1787,17 @@
 		"innerColor": [14, 46, 207],
 		"cities": ["Asunción"]
 	},
+	{
+		"name": "Congo Republic",
+		"adjective": ["Congan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [58, 232, 14],
+		"cities": ["Brazzaville"]
+	},
 
 ]
