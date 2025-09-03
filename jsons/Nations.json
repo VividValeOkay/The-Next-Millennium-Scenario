@@ -1871,5 +1871,17 @@
 		"innerColor": [242, 36, 22],
 		"cities": ["Bishkek"]
 	},
+	{
+		"name": "Uruguay",
+		"adjective": ["Uruguayan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We surrender to you...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Montevideo"]
+	},
 
 ]
