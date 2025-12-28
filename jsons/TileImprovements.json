@@ -13,7 +13,7 @@
 	},
   {
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hilly"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 2,
 		"turnsToBuild": 7,
 		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
