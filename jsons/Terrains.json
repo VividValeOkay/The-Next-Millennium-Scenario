@@ -91,7 +91,7 @@
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Arid",
+		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 172, 0],
@@ -125,7 +125,7 @@
         ]
 	},
 	{
-		"name": "Mountainous",
+		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
 		"defenceBonus": 0.25,
@@ -138,7 +138,7 @@
             "Considered [Undesirable] when determining start locations"]
 	},
 	{
-		"name": "Winter",
+		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [230, 238, 255], //Darker229, 229, 255
@@ -157,7 +157,7 @@
 
 	// Terrain features
 	{
-		"name": "Hilly",
+		"name": "Hill",
 		"type": "TerrainFeature",
 		"production": 2,
 		"movementCost": 2,
