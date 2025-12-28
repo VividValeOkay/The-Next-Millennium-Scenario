@@ -39,7 +39,7 @@
             "Considered [Desirable] when determining start locations",
             "Considered [Food] when determining start locations <in [Jungle] Regions>",
             "Considered [Food] when determining start locations <in [Forest] Regions>",
-            "Considered [Food] when determining start locations <in [Hilly] Regions>",
+            "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
